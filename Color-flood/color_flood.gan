@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Color Flood" company="The A Team" webLink="http://" view-date="2017-03-17" view-index="1" gantt-divider-location="539" resource-divider-location="300" version="2.8.4" locale="fr">
+    <description><![CDATA[Programmation du jeu Color Flood et d'un solveur associé ]]></description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="247" order="0"/>
+        <field id="tpd4" name="Date de début" width="144" order="1"/>
+        <field id="tpd5" name="Date de fin" width="144" order="2"/>
+        <option id="color.recent"><![CDATA[#66ffcc #ff00ff #ffff00 #33cc00 #660066 #0099cc #66ffff #ffff33 #ff0000 #33ff33]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="25" name="Répartition des tâches" color="#66ffff" meeting="false" start="2017-03-17" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Le vendredi 17 Mars , on s'est réunit pour répartir les tâches entre les membre de l'équipe:
+Abdellah Elazzam: référent pour le Lot C du projet et programmeur
+Loubna Hennach: programmeur et chargé de l'organisation du travail
+Anthea Mérida: programmeur et chargé des tests unitaires
+Bader Khatofi: programmeur ]]></notes>
+        </task>
+        <task id="27" name="Choix de la structure de base pour le solveur" color="#0099cc" meeting="false" start="2017-03-20" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Une structure de pile pour le solveur et une autre structure de pile de piles pour stocker les solutions possiles a été choisie.
+]]></notes>
+        </task>
+        <task id="29" name="Tests unitaires sur la structures de base" color="#660066" meeting="false" start="2017-03-21" duration="4" complete="0" expand="true">
+            <notes><![CDATA[Anthea programme les tests unitaires sur les structures choisies pour le solveur]]></notes>
+        </task>
+        <task id="26" name="Programmation du solveur" color="#33cc00" meeting="false" start="2017-03-22" duration="9" complete="0" expand="true"/>
+        <task id="30" name="Amélioration du solveur" color="#ffff00" meeting="false" start="2017-04-04" duration="4" complete="0" expand="true"/>
+        <task id="31" name="Adaptation du solveur au mode graphique" color="#ff00ff" meeting="false" start="2017-04-10" duration="1" complete="0" expand="true"/>
+        <task id="1" name="Optimisation du solveur" color="#ff0066" meeting="false" start="2017-04-10" duration="4" complete="0" expand="true"/>
+        <task id="3" name="Tests unitaires" color="#99ff00" meeting="false" start="2017-04-14" duration="1" complete="0" expand="true"/>
+        <task id="7" name="README, Rapport et finalisation du diagramme de Gantt" color="#330099" meeting="false" start="2017-04-14" duration="3" complete="0" expand="true"/>
+        <task id="9" name="Vérification globale" color="#33ff33" meeting="false" start="2017-04-17" duration="2" complete="0" expand="true"/>
+        <task id="12" name="Livraison" color="#66ffcc" meeting="false" start="2017-04-18" duration="1" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="loubna hennach" function="Default:1" contacts="loubna.hennach@hotmail.fr" phone="0668948187"/>
+        <resource id="1" name="Abdellah Elazzam" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Anthea Mérida" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Bader Khatofi" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="1" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="0" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="26" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="2" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="29" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
